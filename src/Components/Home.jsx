@@ -15,7 +15,7 @@ const Home = () => {
 const navigate = useNavigate()
   const boxRef = useRef()
   const isMobile = window.innerWidth < 768
-
+// Use Scroll
   const { scrollY } = useScroll()
   const y1 = useTransform(scrollY, [0, 800], [0, 550])
   const x1 = useTransform(scrollY, [0, 800], [0, 60])
