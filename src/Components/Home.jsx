@@ -2,11 +2,10 @@ import React, { useState } from 'react'
 import bg from '../assets/flowerbg.jpg'
 import { motion, useScroll, useTransform, useMotionValueEvent } from 'motion/react'
 import boque from '../assets/boque.png'
-
 import { useRef } from 'react'
 import butterfly1 from '../assets/Butterfly.png'
 import butterfly2 from '../assets/BrownButterfly.png'
-import butterfly3 from '../assets/Purplebutterfly.png'
+import butterfly3 from '../assets/PurpleButterfly.png'
 import { useNavigate } from 'react-router-dom'
 import Cards from './Cards'
 
