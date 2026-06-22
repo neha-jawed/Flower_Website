@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import bg from '../assets/flowerbg.jpg'
 import { motion, useScroll, useTransform, useMotionValueEvent } from 'motion/react'
 import boque from '../assets/boque.png'
-import { useGSAP } from '@gsap/react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import { useRef } from 'react'
 import butterfly1 from '../assets/Butterfly.png'
 import butterfly2 from '../assets/BrownButterfly.png'

@@ -2,7 +2,7 @@ import React from 'react'
 import flower1 from '../assets/flower1.PNG'
 import flower2 from '../assets/flower2.PNG'
 import flower3 from '../assets/flower3.PNG'
-import { motion } from 'framer-motion'
+import { motion } from 'motion/react'
 
 const Cards = () => {
 
